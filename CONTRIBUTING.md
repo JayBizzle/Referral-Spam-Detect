@@ -1,0 +1,2 @@
+### Contributing
+If you find a referral spam URL that ReferralSpamDetect fails to detect, please submit a pull request with the URL added to the `$data` array in `Fixtures/SpamReferrers.php` and add the failing URL to `tests/referrers.txt`.
