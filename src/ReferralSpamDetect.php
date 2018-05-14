@@ -65,7 +65,6 @@ class ReferralSpamDetect
         $this->referrer = $this->setReferrer($referrer);
     }
 
-
     /**
      * Set HTTP headers.
      *
@@ -128,7 +127,7 @@ class ReferralSpamDetect
     public function isReferralSpam($referrer = null)
     {
         $referrer = $referrer ?: $this->referrer;
-        
+
         if (strlen(trim($referrer)) == 0) {
             return false;
         }
