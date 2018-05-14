@@ -10,8 +10,8 @@
  */
 
 use PHPUnit\Framework\TestCase;
-use Jaybizzle\ReferralSpamDetect\ReferralSpamDetect;
 use Jaybizzle\ReferralSpamDetect\Fixtures\Crawlers;
+use Jaybizzle\ReferralSpamDetect\ReferralSpamDetect;
 
 class UserAgentTest extends TestCase
 {
