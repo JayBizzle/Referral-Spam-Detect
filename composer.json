@@ -24,6 +24,11 @@
             "Jaybizzle\\ReferralSpamDetect\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Jaybizzle\\ReferralSpamDetect\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
         "test": "vendor/bin/phpunit"
     }

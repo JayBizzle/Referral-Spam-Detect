@@ -9,6 +9,8 @@
  * with this source code in the file LICENSE.
  */
 
+namespace Jaybizzle\ReferralSpamDetect\Tests;
+
 use PHPUnit\Framework\TestCase;
 use Jaybizzle\ReferralSpamDetect\Fixtures\Crawlers;
 use Jaybizzle\ReferralSpamDetect\ReferralSpamDetect;
